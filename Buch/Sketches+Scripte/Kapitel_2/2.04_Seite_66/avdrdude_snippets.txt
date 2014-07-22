@@ -1,0 +1,15 @@
+# Name der Gerätedatei /dev/ttyACM0, COM1... ist jeweils dem in der Arduino-IDE angezeigten anzupassen!
+# Linux – Pfadvariable auf Wunsch dauerhaft in $HOME/.bash_profile oder $HOME/.profile setzen
+export PATH=$PATH:/usr/local/arduino-1.5.x/hardware/tools
+export AVRCONF=/usr/local/arduino-1.5.x/hardware/tools/avrdude.conf
+avrdude -C "$AVRCONF" -p m328p -c arduino -b19200 -P /dev/ttyACM0 -U lfuse:r:-:h -U hfuse:r:-:h -U efuse:r:-:h -U lock:r:-:h
+
+# Windows – Pfadvariable auf Wunsch dauerhaft setzen: http://www.java.com/en/download/help/path.xml
+set PATH=%PATH%;"C:\Program Files\Arduino\hardware\tools\avr\bin"
+set AVRCONF="C:\Program Files\Arduino\hardware\tools\avr\etc\avrdude.conf"
+avrdude.exe -C "%AVRCONF%" -p m328p -c arduino -b19200 -P COM1 -U lfuse:r:-:h -U hfuse:r:-:h -U efuse:r:-:h -U lock:r:-:h
+
+# Mac OS X – Pfadvariable auf Wunsch dauerhaft in $HOME/.bash_profile setzen
+export PATH=$PATH:/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin
+export AVRCONF=/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/etc/avrdude.conf
+avrdude -C "$AVRCONF" -p m328p -c arduino -b19200 -P /dev/tty.usbmodem123 -U lfuse:r:-:h -U hfuse:r:-:h -U efuse:r:-:h -U lock:r:-:h

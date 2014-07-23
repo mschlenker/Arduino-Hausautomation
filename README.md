@@ -37,6 +37,6 @@ zulassen.
 
 Bei Fragen oder Anregungen kontaktieren Sie mich bitte per Email unter
 ms@mattiasschlenker.de. Sollten Errata oder Erklärungen notwendig werden,
-werde ich diese unter http://www.arduibno-hausautomation.de/ veröffentlichen.
+werde ich diese unter http://www.arduino-hausautomation.de/ veröffentlichen.
 
  

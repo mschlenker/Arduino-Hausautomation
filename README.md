@@ -33,6 +33,15 @@ Alle Sketches sind unter GPL v2 lizenziert. Andere Lizenzen sind auf Anfrage
 möglich, wenn abgeklärt wurde, dass verwendete Bibliotheken diese Lizenz 
 zulassen. 
 
+Fritzing-Dateien unterliegen der 
+[CC-BY-SA](http://creativecommons.org/licenses/by-sa/3.0/deed.de).
+
+Die Verwertungsrechte der Fotos liegen beim Franzis Verlag. Eine Verwendung in
+nicht-kommerziellen Webseiten der zu Pressezwecken ist genehmigt, solange der
+Copyright-Vermerk "Foto: Mattias Schlenker für Franzis Verlag, 
+www.arduino-hausautomation.de" oder "Foto: Mattias Schlenker für Franzis
+Verlag, Hausautomation mit Arduino" erhalten bleibt.
+
 ## Kontakt
 
 Bei Fragen oder Anregungen kontaktieren Sie mich bitte per Email unter

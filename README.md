@@ -19,6 +19,12 @@ Verzeichnisstruktur:
  * [MakerWorld2014](https://github.com/mschlenker/Arduino-Hausautomation/tree/master/MakerWorld2014) enthält Folien, Sketches usw. zu Voträgen und Makersessions in Friedrichshafen
  * [fritzing](https://github.com/mschlenker/Arduino-Hausautomation/tree/master/fritzing) enthält Fritzing-Dateien fürs [Blog](http://www.arduino-hausautomation.de/)
  
+## Weitere Webseiten
+
+ * [GitHub-Repository](https://github.com/mschlenker/Arduino-Hausautomation) - hier finden Sie aktuelle Versionen der hier enthaltenen Dateien 
+ * [Blog zum Buch](http://www.arduino-hausautomation.de/) - Hintergründe, Spielereien mit Arduino, weitere Erläuterungen, neue Projekte
+ * [Webseite des Autors](http://www.mattiasschlenker.de/) - weitere Projekte
+ 
 ## Formate
 
  * Bilder liegen als PNG und JPG vor, hoch aufgelöst und oft nicht
